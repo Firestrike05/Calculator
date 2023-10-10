@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        //Declare scanner
+        //Declare scanner variable
         Scanner s = new Scanner(System.in);
         Double num1;
         //Take the first argument to the calculator
