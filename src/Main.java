@@ -11,7 +11,7 @@ public class Main {
         String choice = s.nextLine();
 
         //Create an array list to take user input
-        ArrayList<Double> num2 = new ArrayList<Double>();
+        ArrayList<Double> num2 = new ArrayList<>();
         while (s.hasNextLine()) {
             String line = s.nextLine().trim();
             if (line.isEmpty()) {
@@ -26,7 +26,6 @@ public class Main {
         }
 
         Double[] num3 = num2.toArray(new Double[num2.size()]);
-        double result;
 
         switch (choice) {
             case "-":
