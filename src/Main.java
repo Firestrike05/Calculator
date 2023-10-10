@@ -31,6 +31,13 @@ public class Main {
 
         //Convert the arraylist to a Double array for use with a Vararg argument
         Double[] num3 = num2.toArray(new Double[num2.size()]);
+        String arrPlain = "";
+        for(int i = 0; i < num3.length; i++){
+            arrPlain += choice + " " + num3[i] + " ";
+        }
+
+        //Prints out the arguments entered by the user
+        System.out.print(num1 + " " + arrPlain + "= ");
 
         //Switch statements that take user inputted function and prints results of calculation
         switch (choice) {
@@ -51,10 +58,6 @@ public class Main {
                 System.out.println("Invalid choice");
                 break;
         }
-        //Prints out the arguments entered by the user
-        System.out.println(num1);
-        System.out.println(num2);
-
     }
 }
 
